@@ -87,12 +87,18 @@ h3{
   opacity            : 0.5;
 }
 
+
 .top-item {
   text-align : center;
   padding    : 60px 30px;
   max-width  : 780px;
-  width      : 100%;
+  width      : 90%;
   z-index    : 1;
+  margin: 2em auto;
+  padding: 1em;
+  background-color: transparent; 
+  box-shadow: 0 0 5px 5px #f3f6f7, 0 0 5px 3px #f3f5f5 inset; 
+  border-radius: 10px; 
 }
 .top-item img{
   max-width: 180px;
@@ -102,7 +108,7 @@ h3{
 .top-item_main {
   color : #fff;
   font-family: 'Josefin Sans',sans-serif;
-  font-size     : 30px;
+  font-size     : 40px;
   letter-spacing: 5px;
 }
 
@@ -309,6 +315,7 @@ p.about-item__desc {
   margin-top: 20px;
   color: #fff;
 }
+
 
 
 
