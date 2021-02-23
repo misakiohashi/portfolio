@@ -97,8 +97,8 @@ h3{
   margin: 2em auto;
   padding: 1em;
   background-color: transparent; 
-  box-shadow: 0 0 5px 5px #f3f6f7, 0 0 5px 3px #f3f5f5 inset; 
-  border-radius: 10px; 
+  box-shadow: 0 0 3px 3px #f3f6f7, 0 0 3px 1px #f3f5f5 inset; 
+  border-radius: 15px; 
 }
 .top-item img{
   max-width: 180px;
@@ -227,7 +227,7 @@ h3{
   
 }
 .about-item {
-  margin-bottom:50px;
+  margin-bottom:10px;
   position: relative;
 
 }
@@ -263,7 +263,8 @@ p.about-item__desc {
 /* ---------------------------------------------- */
 
 #portfolio{
-  padding-bottom: 120px;
+  padding-bottom: 100px;
+  
 }
 .works-item{
   position: relative;
@@ -323,7 +324,7 @@ p.about-item__desc {
 *  6. Service
 /* ---------------------------------------------- */
 #service {
-  background-image     : url("/../images/E297D131-F0BB-4062-9F92-A0412157F40D.jpeg");
+  background-color: rgb(247, 237, 216);
   background-size      : cover;
   background-attachment: fixed;
 }
@@ -362,134 +363,6 @@ p.about-item__desc {
 }
 
 
-
-
-/* ---------------------------------------------- /*
-*  7. Price
-/* ---------------------------------------------- */
-table {
-  max-width          : 1000px;
-  width: 100%;
-  border-collapse: collapse;
-  margin         : 0 auto;
-  padding        : 0;
-  table-layout   : fixed;
-}
-
-table tr {
-  background-color: #e6f2f5;
-  padding         : .35em;
-  border-bottom   : 2px solid #fff;
-}
-
-table th,
-table td {
-  padding     : 1em 10px 1em 1em;
-  border-right: 2px solid #fff;
-}
-
-table th {
-  font-size: .85em;
-  text-align: center;
-}
-
-table thead tr {
-  background-color: #167F92;
-  color           : #fff;
-  text-align: center;
-}
-
-table tbody th {
-  background: #78bbc7;
-  color     : #fff;
-}
-
-.txt {
-  text-align: left;
-  font-size : .85em;
-}
-
-.price {
-  text-align : right;
-  color      : #167F92;
-  font-weight: bold;
-}
-
-.non {
-  background: #fff
-}
-
-@media screen and (max-width: 600px) {
-  table {
-    border: 0;
-    width : 100%
-  }
-
-  table th {
-    background-color: #167F92;
-    display         : block;
-    border-right    : none;
-  }
-
-  table thead {
-    border  : none;
-    clip    : rect(0 0 0 0);
-    height  : 1px;
-    margin  : -1px;
-    overflow: hidden;
-    padding : 0;
-    position: absolute;
-    width   : 1px;
-  }
-
-  table tr {
-    display      : block;
-    margin-bottom: .625em;
-  }
-
-  table td {
-    border-bottom: 1px solid #bbb;
-    display      : block;
-    font-size    : .8em;
-    text-align   : right;
-    position     : relative;
-    padding      : .625em .625em .625em 4em;
-    border-right : none;
-  }
-
-  table td::before {
-    content    : attr(data-label);
-    font-weight: bold;
-    position   : absolute;
-    left       : 10px;
-    color      : #167F92;
-  }
-
-  table td:last-child {
-    border-bottom: 0;
-  }
-
-  table tbody th {
-    color: #fff;
-  }
-}
-
-
-
-
-/* ---------------------------------------------- /*
-*  8. Contact
-/* ---------------------------------------------- */
-
-#contact{
-  max-width: 650px;
-  margin: 0 auto;
-}
-.btn-custom-2 {
-  background   : rgba(253, 180, 90, 1);
-  border-radius: 3px;
-  color        : #fff;
-}
 
 /* ---------------------------------------------- /*
 *  9. Footer
