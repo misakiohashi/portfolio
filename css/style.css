@@ -320,9 +320,6 @@ p.about-item__desc {
 
 
 
-/* ---------------------------------------------- /*
-*  6. Service
-/* ---------------------------------------------- */
 #service {
   background-color: rgb(247, 237, 216);
   background-size      : cover;
@@ -342,15 +339,14 @@ p.about-item__desc {
   box-shadow   : -6px 10px 30px rgba(0, 0, 0, 0.06);
 }
 .service-card__icon {
-  color    : #00cfd6;
-  font-size: 30px;
+  font-size: 50px;
 }
 .service-card__title {
-  font-size              : 1.1rem;
+  font-size              : 1.5rem;
   letter-spacing         : 3px;
   margin                 : 10px 0 20px;
   color                  : rgba(255, 255, 255, .1);
-  background             : linear-gradient(to right, rgb(76, 217, 105), rgb(52, 170, 220), rgb(88, 86, 217), rgb(255, 45, 83), rgb(255, 45, 83), rgb(88, 86, 217), rgb(52, 170, 220), rgb(76, 217, 105));
+  background             : linear-gradient(to right, rgb(117, 91, 5), rgb(233, 230, 72), rgb(90, 217, 86), rgb(5, 77, 14), rgb(14, 6, 87), rgb(62, 59, 235), rgb(209, 75, 226), rgb(168, 70, 12));
   background-size        : 150%;
   -webkit-background-clip: text;
   animation              : Transition 10s linear infinite;
