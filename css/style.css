@@ -345,11 +345,8 @@ p.about-item__desc {
   font-size              : 1.5rem;
   letter-spacing         : 3px;
   margin                 : 10px 0 20px;
-  color                  : rgba(255, 255, 255, .1);
-  background             : linear-gradient(to right, rgb(117, 91, 5), rgb(233, 230, 72), rgb(90, 217, 86), rgb(5, 77, 14), rgb(14, 6, 87), rgb(62, 59, 235), rgb(209, 75, 226), rgb(168, 70, 12));
-  background-size        : 150%;
-  -webkit-background-clip: text;
-  animation              : Transition 10s linear infinite;
+  color                  : rgb(90, 71, 8);
+  
 }
 .service-card__copy {
   color      : #5B5963;
